@@ -1,0 +1,9 @@
+	
+	<h1>New post</h1>
+	
+	<%= error_messages_for :post %>
+
+	<% form_for([@user, @post], new_user_post_path(@user)) do |f| %>
+		<%= render :partial => "form", :locals => {:f => f} %> <br />
+	<%= f.submit "Create" %>
+	<% end %>

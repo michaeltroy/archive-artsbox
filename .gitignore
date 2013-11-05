@@ -1,0 +1,4 @@
+log/*
+
+# OSX generated thing
+.DS_Store

@@ -1,0 +1,13 @@
+<% for image in @images %>
+	<p style="float:left;">
+	<%= image_tag image.image.url(:one_two_four) %><br />
+	<% if active_user %>
+  <%= link_to "[x]", user_image_path(@user, image), :confirm => 'Are you sure?', :method => :delete %>
+	<% end %>
+	</p>
+<% end %>
+
+<% if active_user %>
+<p style="float:left;clear:both;">
+<%= link_to "New image", new_user_image_path(@user) %></p>
+<% end %>

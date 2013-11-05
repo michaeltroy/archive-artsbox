@@ -1,0 +1,6 @@
+<h1>Edit my box</h1>
+
+<% form_for([@active], user_path(@active), :html => {:multipart => true}) do |f| %> 
+	<%= render :partial => "form", :locals => {:f => f} %>
+	<%= f.submit "Update my box" %>
+<% end %>

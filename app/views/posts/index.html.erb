@@ -1,0 +1,28 @@
+	<%= auto_discovery_link_tag(:rss, {:controller => "posts", :action => "index", :format => :rss}) %>
+	
+	<% if active_user %>
+	<h1><%= link_to "#{image_tag "icons/newspaper_plus.png"}", new_user_post_path(@user) %> Write a post </h1>
+	<p></p><br />
+	<% end %>
+	
+	<% for post in @posts %>
+	<div class="list_of_posts">
+		<p class="title">
+		<%= link_to "#{post.title}", user_post_path(@user, post) %></p>
+		
+		<p><%= post.body %></p>
+		
+    <p class="information">
+		<%=h post.created_at.strftime("%A %d %B %y") %>
+		<span class="comments_size">
+    <%= link_to "There are #{post.comments.size} comments", user_post_path(@user, post)%>
+		</span></p>
+    
+		<% if active_user %>
+		<%= link_to "#{image_tag "icons/newspaper_pencil.png"}", user_post_path(@user, post) %>
+    <%= link_to "#{image_tag "icons/newspaper_minus.png"}", user_post_path(@user, post), 
+						   						:confirm => 'Are you sure?', :method => :delete %>
+		<% else %>
+		<% end %>
+		</div>
+	<% end %>

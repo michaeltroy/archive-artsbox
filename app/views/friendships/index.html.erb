@@ -1,0 +1,22 @@
+<h2>Following</h2>
+<% for friendship in @user.friendships %>
+	<table border="0" cellspacing="5" cellpadding="5">
+		<tr>
+			<td width="44px"><%= image_tag friendship.friend.avatar.url(:tiny) %></td>
+			<td><%= link_to "#{friendship.friend.username}", permalink_path(friendship.friend.permalink) %></td>
+			<% if @active %>
+			<td><%= link_to "remove", user_friendship_path(@user, friendship), :method => :delete %></td>
+			<% end %>
+		</tr>
+	</table>
+<% end %>	
+
+<h2>Followed by</h2>
+<% for user in @user.inverse_friends %>
+	<table border="0" cellspacing="5" cellpadding="5">
+		<tr>
+				<td width="44px"><%= image_tag user.avatar.url(:tiny) %></td>
+				<td><%= link_to "#{user.username}", permalink_path(user.permalink) %></td>
+		</tr>
+	</table>
+<% end %>

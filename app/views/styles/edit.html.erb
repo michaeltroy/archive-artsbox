@@ -1,0 +1,6 @@
+<%= error_messages_for :style %>
+
+<% form_for([@user, @style], user_style_path(@user), :html => {:multipart => true}) do |f| %>
+	<%= render :partial => "form", :locals => {:f => f} %>
+	<p><%= f.submit "Submit" %></p>
+<% end %>

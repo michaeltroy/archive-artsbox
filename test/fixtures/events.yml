@@ -1,0 +1,31 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  title: MyString
+  location: MyString
+  venue: MyString
+  artist: MyString
+  body: MyText
+  link: MyString
+  permalink: MyString
+  start_date: 2008-09-21 17:22:27
+  start_time: 2008-09-21 17:22:27
+  end_date: 2008-09-21 17:22:27
+  end_time: 2008-09-21 17:22:27
+  opening_date: 2008-09-21 17:22:27
+  opening_time: 2008-09-21 17:22:27
+
+two:
+  title: MyString
+  location: MyString
+  venue: MyString
+  artist: MyString
+  body: MyText
+  link: MyString
+  permalink: MyString
+  start_date: 2008-09-21 17:22:27
+  start_time: 2008-09-21 17:22:27
+  end_date: 2008-09-21 17:22:27
+  end_time: 2008-09-21 17:22:27
+  opening_date: 2008-09-21 17:22:27
+  opening_time: 2008-09-21 17:22:27

@@ -1,0 +1,5 @@
+<p><%= textilize(@user.description) %></p>
+
+<% if active_user %>
+	<%= link_to 'Edit my description', edit_user_path(@user) %>
+<% end %>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Signup | artsbox.com | 
+	 The social network for artists, designers, handmade, creative folk 
+	 and lovers of these good things.</title>
+	<%= javascript_include_tag 'jquery', 'application' %>  
+	<%= stylesheet_link_tag 'signup' %>
+</head>
+<body>
+	
+	<div id="signup">
+		<%= yield %>
+	</div>
+	
+<%= render :partial => "meta/google_analytics" %>
+</body>
+</html>

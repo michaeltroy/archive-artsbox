@@ -1,0 +1,134 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	padding-top:24px;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 0.8em;
+}
+
+/* Global styling */
+p, h1, h2, h3, h4 {
+}
+
+img {
+	border: 0px;
+}
+/* Main content wrapper. */
+#wrapper {
+	width:900px;
+	height:824px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+
+/* Headmast. */
+#headmast {
+	
+}
+
+/* Content. */
+#content {
+	margin-top:18px;
+}
+
+#content h1 {
+	font-size:112%;
+	margin-bottom:12px;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:6px;
+	padding-right:6px;
+	color:#7B8F94;
+	background-color:#EFF;
+	display:inline-block;
+}
+
+#content p {
+	color:#A4A4A4;	
+}
+
+/* Subscriber form. */
+#subscribe {
+	margin-bottom:24px;
+}
+
+#subscribe p {
+}
+
+#subscribe p.fine_print {
+	font-size: 84%;
+	color:#EAEAEA;
+	width:744px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+#subscribe p.fine_print:hover {
+	font-size: 84%;
+	color:#000;
+	background-color:#FFFEEB;
+}
+
+#general_news {
+	padding:12px;
+	margin-bottom:24px;
+}
+
+#general_news label {
+}
+
+#general_news input {
+	padding:4px;
+	font-size:144%;
+}
+
+#general_news p.email {
+	width:744px;
+	padding:16px;
+	margin-left:auto;
+	margin-right:auto;	
+	margin-bottom:12px;
+	background-color:#F4F4F4;
+}
+
+#general_news input.email {
+	color: #E0E0E0;
+	width:724px;
+	text-align:center;
+}
+
+#general_news input.email:hover {
+	background-color:#FFFEEB;
+	color: #000;
+}
+
+#general_news input.submit {
+}
+
+/* Footer. */
+#footer {
+	margin-bottom:24px;
+}
+
+#footer a {
+	
+}
+
+#footer a.media-temple {
+	width:224px;
+	height:224px;
+	background-image: url(images/mediatemple.jpg);
+}
+
+/* Thanks page. */
+#thanks_wrapper {
+	margin-top:124px;
+}
+
+.thanks {
+	text-align:center;
+}
