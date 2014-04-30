@@ -21,4 +21,4 @@ config.action_view.debug_rjs                         = true
 
 # require Spreedly gem
 # require 'spreedly'  
-# Spreedly.configure('artsbox-dev', 'ee82eb9e87f95a03bffca46d712eefe744728ea5')
+# Spreedly.configure('', '')

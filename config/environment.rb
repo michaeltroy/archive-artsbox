@@ -18,12 +18,12 @@ Rails::Initializer.run do |config|
   
   # mail settings.
   config.action_mailer.smtp_settings = {
-    :address          => "mail.metaset.com.au",
+    :address          => "",
     :port             => 25,
-    :domain           => "metaset.com.au",
+    :domain           => "",
     :authentication   => :login,
-    :user_name        => "test@metaset.com.au",
-    :password         => "testtest"
+    :user_name        => "",
+    :password         => ""
   }
   
   # Observers.

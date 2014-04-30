@@ -1,19 +1,19 @@
 development:
   bucket_name: arts-box-development
-  access_key_id: 1SDS9JGYTAD8Q561GZR2
-  secret_access_key: x778REJhljF9hHVQTQS9NDtcBb9hbCy+sBfT2KxZ
+  access_key_id: 
+  secret_access_key: 
 
 testing:
   bucket_name: arts-box-testing
-  access_key_id: 1SDS9JGYTAD8Q561GZR2
-  secret_access_key: x778REJhljF9hHVQTQS9NDtcBb9hbCy+sBfT2KxZ
+  access_key_id: 
+  secret_access_key: 
   
 staging:
   bucket_name: arts-box-staging
-  access_key_id: 1SDS9JGYTAD8Q561GZR2
-  secret_access_key: x778REJhljF9hHVQTQS9NDtcBb9hbCy+sBfT2KxZ
+  access_key_id: 
+  secret_access_key: 
 
 production:
   bucket_name: arts-box-production
-  access_key_id: 1SDS9JGYTAD8Q561GZR2
-  secret_access_key: x778REJhljF9hHVQTQS9NDtcBb9hbCy+sBfT2KxZ 
+  access_key_id: 
+  secret_access_key:
